@@ -1,0 +1,127 @@
+/* Estilo general del contenedor del chatbot */
+.chat-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Caja de mensajes */
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.bot-message, .user-message {
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    color: #333;
+    align-self: flex-start;
+}
+
+.user-message {
+    background-color: #4caf50;
+    color: white;
+    align-self: flex-end;
+}
+
+/* Estilo del formulario */
+.chat-form {
+    display: flex;
+    align-items: center;
+}
+
+.chat-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.chat-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.chat-form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Cuestionarios Realizados */
+
+/* Estilo general de la página */
+body {
+    font-family: 'Montserrat', sans-serif; /* Tipografía moderna */
+    background-color: #f5f5f5; /* Color de fondo suave */
+    color: #333; /* Color de texto oscuro para buen contraste */
+}
+
+/* Encabezado */
+h1 {
+    font-size: 2.5rem;
+    color: #572364; /* Color púrpura elegante */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.table th {
+    background-color: #572364; /* Fondo púrpura para los encabezados */
+    color: white; /* Texto blanco */
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Espaciado de letras */
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle; /* Centrar verticalmente */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Alternancia de color en filas */
+}
+
+/* Estilo de hover en las filas */
+.table-hover tbody tr:hover {
+    background-color: #f0e5f9; /* Efecto hover elegante */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .table th, .table td {
+        font-size: 0.9rem; /* Reducir tamaño de texto en pantallas pequeñas */
+        padding: 10px;
+    }
+}
+ /* panel_grissel */
+
+ 

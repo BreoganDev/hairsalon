@@ -1,0 +1,142 @@
+/* Estilo general */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #cec4c4;
+    margin: 0;
+    padding: 0;
+}
+
+.logotipo img {
+display: block;
+margin: 0 auto;
+}
+
+.chat-container {
+    display: flex;
+    justify-content: center;
+   /* align-items: center;*/
+    height: 100vh;
+}
+
+.chat-box {
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    background-color: #e5ddd5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedor de mensajes */
+.chat-content {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chat-content::-webkit-scrollbar {
+    width: 6px;
+}
+.chat-content::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 3px;
+}
+
+/* Mensajes del bot */
+.bot-message {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 75%;
+    align-self: flex-start;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.bot-message::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+/* Mensajes del usuario */
+.user-message {
+    background-color: #dcf8c6;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 75%;
+    align-self: flex-end;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.user-message::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #dcf8c6;
+}
+
+/* Caja de entrada de texto */
+.input-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 10px 10px;
+}
+
+.input-box input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-box button {
+    margin-left: 10px;
+    background-color: #25d366;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.input-box button i {
+    font-size: 1.2rem;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .chat-box {
+        width: 90%;
+        max-width: 100%;
+        height: 500px;
+    }
+}

@@ -1,0 +1,168 @@
+/* Inicio de Sesion */
+.container {
+    margin-top: 0.5rem;
+}
+.card-header, .text-center {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #dadada !important;
+    color: #000000 !important;
+    font-weight: 700 !important;
+}
+
+.col-md-6  {
+    font-family: krub !important;
+}
+
+.h3, h3 {
+    font-family: nerko one !important;
+    font-size: 2.5rem !important;
+    font-weight: 400 !important;
+    color:#373737 !important;
+    background-color: aqua !important;
+}
+
+.card-body {
+    text-align: center;
+    font-family: krub;
+    font-weight: 700;
+    padding: 40px; /* Espacio entre el formulario y el borde del card-body */
+
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.fc .fc-toolbar-title {
+    font-family: krub !important;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.fc-today-button.fc-button.fc-button-primary{
+    display: none;
+}
+
+.fc-dayGridMonth-button.fc-button.fc-button-primary {
+    background-color: #8CBED6 !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+.fc-dayGridMonth-button.fc-button.fc-button-primary.fc-button-active {
+    background-color: #000000 !important;
+    color: #ffd700 !important;
+}
+
+.fc-timeGridWeek-button.fc-button.fc-button-primary {
+    background-color: #8CBED6 !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+
+
+}
+
+.fc-timeGridWeek-button.fc-button.fc-button-primary.fc-button-active {
+    background-color: #000000 !important;
+    color: #ffd700 !important;
+
+}
+
+.fc-timeGridDay-button.fc-button.fc-button-primary {
+    background-color: #8CBED6 !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+.fc-timeGridDay-button.fc-button.fc-button-primary.fc-button-active {
+    background-color: #000000 !important;
+    color: #ffd700 !important;
+}
+
+/* Inicio de Sesion */
+
+.cardi-body {
+    background-color: #282727 !important;
+    
+}
+
+.form-group, .username {
+    color: #ffd700 !important;
+    text-align: center;
+}
+
+.formi-control {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: -20px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 10px solid #282727;
+    border-radius: 1rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+
+.btni.btn-warning {
+    color: #171717;
+    text-align: center;
+    font-family: krub;
+    font-weight: 700;
+}
+
+.btni.btn-primary {
+    color: #ffffff;
+    text-align: center;
+    font-family: krub;
+    font-weight: 700;
+}
+
+.logotipo img {
+    max-height: 60px; /* Ajustar la altura máxima del logo */
+    width: auto; /* Mantener la proporción del logo */
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas menores a 768px */
+    .card {
+        width: 100%;
+    }
+    .btn {
+        font-size: 14px;
+    }
+
+    .fc-button-group {
+        font-size: smaller;
+    }
+
+    .fc .fc-toolbar-title {
+        font-family: krub !important;
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        text-transform: capitalize !important;
+        margin: 0;
+    }
+    
+    
+   
+    /* ... otros estilos */
+}
+
+
+
+

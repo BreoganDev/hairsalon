@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@fullcalendar/bootstrap": "^6.1.15",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/resource-timegrid": "^6.1.15",
+    "bootstrap": "^4.6.2",
+    "gulp": "^5.0.0",
+    "sass": "^1.77.8",
+    "scss": "^0.2.4"
+  },
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Agenda Salon Belleza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proyecto"
+  ],
+  "author": "Diego Fernandez",
+  "license": "MIT"
+}
