@@ -1,9 +1,9 @@
 <?php
 
 // Configuración de la base de datos
-$user = 'u590131054_root';
-$pass = 'Rosdeli2020';
-$namedb = 'u590131054_bot';
+$user = 'root';
+$pass = 'xxxxxx';
+$namedb = 'bot';
 
 // Conexión a la base de datos utilizando PDO
 try {
